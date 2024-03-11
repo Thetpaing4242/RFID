@@ -1,0 +1,12 @@
+<?php
+	include 'database.php';
+	$sql=mysqli_query($con,"CREATE TABLE `table_nodemcu_rfidrc522_mysql` (
+  `name` varchar(100) NOT NULL,
+  `id` varchar(100) NOT NULL,
+  `roll_no` varchar(100) NOT NULL,
+  `gender` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `mobile` varchar(100) NOT NULL
+) ");
+
+?>
